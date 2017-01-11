@@ -1,0 +1,28 @@
+name: bondservice
+channels: !!python/tuple
+- defaults
+dependencies:
+- openssl=1.0.1k=1
+- pip=8.0.3=py33_0
+- python=3.3.5=3
+- readline=6.2=2
+- setuptools=20.1.1=py33_0
+- sqlite=3.13.0=0
+- tk=8.5.18=0
+- wheel=0.29.0=py33_0
+- xz=5.0.5=1
+- zlib=1.2.8=3
+- pip:
+  - coreapi==2.1.1
+  - django==1.8
+  - django-filter==1.0.1
+  - django-rest-swagger==2.1.0
+  - djangorestframework==3.5.3
+  - itypes==1.1.0
+  - markdown==2.6.7
+  - openapi-codec==1.2.1
+  - requests==2.12.4
+  - simplejson==3.10.0
+  - uritemplate==3.0.0
+prefix: /Users/b1xpc0/anaconda/envs/bondservice
+
